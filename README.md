@@ -20,15 +20,15 @@ npm run preview
 ```
 
 ## Deploy to GitHub Pages (recommended: GitHub Actions)
-1. Create a **public** repository named exactly `ravirk2704.github.io`.
+1. Create a **public** repository named exactly `ravirkat2704.github.io`.
 2. Upload/commit the contents of this project to the repository root (the `package.json` must be at the root, not inside an extra nested folder).
 3. In GitHub, open **Settings → Pages**.
 4. Under **Build and deployment → Source**, select **GitHub Actions**.
 5. Commit and push the included `.github/workflows/deploy.yml` workflow (included in this project).
 6. Open the **Actions** tab and wait for the `Deploy portfolio to GitHub Pages` workflow to finish successfully.
-7. Visit `https://ravirk2704.github.io`.
+7. Visit `https://ravirkat2704.github.io`.
 
-The Vite `base` is `/`, correct for the personal site repository `ravirk2704.github.io`. If you instead use a repository named something other than `ravirk2704.github.io`, change `base` in `vite.config.js` to `"/REPOSITORY-NAME/"`.
+The Vite `base` is `/`, correct for the personal site repository `ravirkat2704.github.io`. If you instead use a repository named something other than `ravirk2704.github.io`, change `base` in `vite.config.js` to `"/REPOSITORY-NAME/"`.
 
 ## Add project screenshots
 Copy your own screenshots into `public/images/` using:
