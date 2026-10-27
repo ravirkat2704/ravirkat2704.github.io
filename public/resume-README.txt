@@ -1,0 +1,1 @@
+Place your CV PDF in this folder as resume.pdf if you want to add a resume download button later. The current portfolio does not claim a resume download until that file is included.
